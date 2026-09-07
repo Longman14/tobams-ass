@@ -38,7 +38,7 @@ export function LearningSection() {
               management, TG Academy offers a wide range of courses to
               cater to diverse learning needs. With accessible and
               interactive learning materials, individuals can enhance
-              their skills and stay ahead in today's competitive tech
+              their skills and stay ahead in today&apos;s competitive tech
               landscape.
             </p>
  

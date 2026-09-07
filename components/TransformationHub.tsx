@@ -26,7 +26,7 @@ export default function TransformationHub() {
         curated by the CEO, Dr. Jite Newton. Designed to elevate career
         trajectories and leadership capabilities, this exclusive event
         offers invaluable insights and strategies for personal and
-        professional growth. Whether you're seeking to advance your career
+        professional growth. Whether you&apos;re seeking to advance your career
         or enhance your leadership skills, the Transformation Hub provides
         a transformative learning experience to unlock your full potential
         and drive success in your endeavours.

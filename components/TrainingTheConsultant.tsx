@@ -1,5 +1,4 @@
 import { ChevronRight } from "lucide-react";
-import LearnMoreButton from "./LearnMoreButton";
 
   export default function TrainingTheConsultant() {
 

@@ -23,8 +23,7 @@ export default function Home() {
         <ManagementDevelopmentProgram />
         <TransformationHub />
         <TrainingTheConsultant />
-        {/* Testimonial section */}
-        <section className="bg-white flex flex-col">
+        <section className="bg-white flex flex-col" aria-label="Testimonials">
           <MobileCTA />
           <div className="mx-auto w-full my-2  p-6 lg:px-16 lg:py-8 hidden bg-primary rounded-lg md:flex md:flex-col gap-6 lg:gap-8 max-w-2xl lg:max-w-6xl items-center justify-center">
             <p className="text-sm lg:text-lg text-white leading-relaxed tracking-wide max-w-xl lg:max-w-2xl text-center">
@@ -36,20 +35,19 @@ export default function Home() {
 
           </div>
 
-          <Testimonials/>
+          <Testimonials />
 
         </section>
 
-        {/* footer section */}
-        <section>
+        <section aria-labelledby="contact-cta-title">
           <div className="mx-auto w-full p-6 lg:px-16 lg:py-10 bg-[#1d0617] min-h-34 md:h-40 lg:h-50 flex flex-col md:flex-row gap-5 lg:gap-8 items-start md:items-center justify-between">
             <div>
               <p className="text-xs lg:text-lg text-white tracking-wide mb-2 lg:mb-3.5">
                 Ready to be a part of something extraordinary?
               </p>
-              <h3 className="text-lg md:text-2xl lg:text-[32px] font-semibold text-white font-display tracking-wide">
-                Let's work together to create a difference
-              </h3>
+              <h2 id="contact-cta-title" className="text-lg md:text-2xl lg:text-[32px] font-semibold text-white font-display tracking-wide">
+                 Let&apos;s work together to create a difference
+              </h2>
 
             </div>
             <div className="w-full md:w-auto">

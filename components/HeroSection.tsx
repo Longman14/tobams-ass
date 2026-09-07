@@ -16,7 +16,7 @@ export function HeroSection() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 max-w-3xl lg:max-w-269.25 mx-auto">
         <span className="bg-white/10 text-white text-xs lg:text-sm tracking-wider uppercase px-6 py-2 rounded-full mb-4 lg:px-12 lg:py-3">What we do</span>
         <h1 className="text-4xl lg:text-[56px] font-bold text-white font-display mb-4 hidden md:block" id="hero-title">Training and Development</h1>
-        <h1 className="text-2xl lg:text-[56px] font-bold text-white font-display mb-4 md:hidden" id="hero-title">Learning and Development</h1>
+        <p className="text-2xl font-bold text-white font-display mb-4 md:hidden" aria-hidden="true">Learning and Development</p>
 
         <p className="text-white text-xs md:text-sm lg:text-[16px] mb-10 w-full tracking-wide">Our comprehensive range of programs and resources is designed to enhance skills, broaden knowledge, and propel careers forward in today&apos;s ever-evolving landscape.</p>
         <button className="  rounded-sm bg-primary cursor-pointer px-6 py-2 lg:py-4 lg:px-7 text-xs md:text-sm lg:text-lg  text-white transition duration-180  hover:bg-[#431037]

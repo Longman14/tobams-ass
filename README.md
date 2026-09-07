@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tobams Group Training and Development
 
-## Getting Started
+A responsive Next.js landing page for Tobams Group's training and development programs.
 
-First, run the development server:
+## Setup
+
+Requirements: Node.js 20 or newer and npm.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the live development URL at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For a production build:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+Run the lint checks with `npm run lint`.
 
-To learn more about Next.js, take a look at the following resources:
+## Design decisions and technical assumptions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- The page uses the existing Tobams Group visual direction: Roboto for body copy, Nunito for headings, a plum primary color, and coral accents.
+- Existing local image assets in `public/` are retained and given descriptive alternative text.
+- Navigation and CTA destinations are presentation placeholders because no route or CMS endpoint was provided; the buttons remain static UI controls.
+- AI was used to check for anything I might have missed in the instructions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project structure
 
-## Deploy on Vercel
+- `app/`: App Router layout, page, and global styles.
+- `components/`: Header, content sections, testimonials, and footer.
+- `public/`: Local image assets used by the page.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

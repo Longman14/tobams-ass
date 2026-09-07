@@ -1,7 +1,4 @@
 import { ArrowUpRight } from "lucide-react";
-import type { ButtonHTMLAttributes } from "react";
-
-
 
 export default function LearnMoreButton() {
   return (

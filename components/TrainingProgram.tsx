@@ -55,18 +55,22 @@ export default function TrainingPrograms() {
   return (
     <section className="px-4 py-8 lg:px-16 lg:py-16 bg-white">
       <div className="mx-auto flex flex-col gap-20 lg:gap-30">
-        {sections.map((section) => (
+        {sections.map((section, index) => (
           <div
             key={section.title}
             className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 items-center"
           >
+            <h3 className="order-1 md:hidden text-xl font-semibold font-display text-black">
+              {section.title}
+            </h3>
+
             {/* Text block */}
             <div
               className={
-                section.imageFirst ? "order-2 md:order-2" : "order-2 md:order-1"
+                section.imageFirst ? "order-3 md:order-2" : "order-3 md:order-1"
               }
             >
-              <h3 className="text-3xl lg:text-5xl font-semibold font-display text-black mb-3 lg:mb-4">
+              <h3 className="hidden md:block text-xl md:text-3xl lg:text-5xl font-semibold font-display text-black mb-3 lg:mb-4">
                 {section.title}
               </h3>
               <p className="text-sm lg:text-lg text-gray-600 leading-relaxed tracking-wide mb-4 lg:mb-5">
@@ -92,14 +96,18 @@ export default function TrainingPrograms() {
             <div
               className={
                 section.imageFirst
-                  ? "order-1 md:order-1"
-                  : "order-1 md:order-2"
+                  ? "order-2 md:order-1"
+                  : "order-2 md:order-2"
               }
             >
               <Image
                 src={section.image}
                 alt={section.imageAlt}
-                className="w-full h-70 lg:h-96 md:h-84 object-cover rounded-lg rounded-tl-4xl overflow-hidden"
+                className={`w-full h-70 lg:h-96 md:h-84 object-cover overflow-hidden ${
+                  index === 0
+                    ? "rounded-tl-4xl rounded-bl-4xl rounded-tr-xl rounded-br-xl"
+                    : "rounded-tl-4xl rounded-xl"
+                }`}
                 width={600}
                 height={400}
               />

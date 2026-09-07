@@ -61,7 +61,7 @@ export function Header() {
           const isActive = index === 0;
           return (
             <Link 
-              href=""
+              href="#top"
               key={item}
               className={`flex text-[12px] px-2 lg:text-base items-center gap-1 py-1  transition-colors ${
                 isActive 
@@ -106,7 +106,7 @@ export function Header() {
               const isActive = index === 0;
               return (
                 <Link
-                  href=""
+                  href="#top"
                   key={item}
                   className={`flex items-center justify-between border-b py-4 text-sm transition-colors ${
                     isActive

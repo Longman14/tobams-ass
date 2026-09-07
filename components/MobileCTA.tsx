@@ -6,7 +6,7 @@ export default function MobileCTA() {
         project with Tobams Group. Your journey to digital excellence begins
         here.
       </p>
-      <button className="flex h-12 w-fit items-center justify-center rounded-sm bg-white px-6 py-3 text-base font-semibold text-primary">
+      <button type="button" className="flex h-12 w-fit items-center justify-center rounded-sm bg-white px-6 py-3 text-base font-semibold text-primary">
         Book a Consultation
       </button>
     </div>

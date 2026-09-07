@@ -9,4 +9,9 @@
   --font-display: var(--font-nunito);
 }
 
+:focus-visible {
+  outline: 3px solid var(--color-secondary);
+  outline-offset: 3px;
+}
+
 

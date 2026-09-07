@@ -19,7 +19,7 @@ export function HeroSection() {
         <p className="text-2xl font-bold text-white font-display mb-4 md:hidden" aria-hidden="true">Learning and Development</p>
 
         <p className="text-white text-xs md:text-sm lg:text-[16px] mb-10 w-full tracking-wide">Our comprehensive range of programs and resources is designed to enhance skills, broaden knowledge, and propel careers forward in today&apos;s ever-evolving landscape.</p>
-        <button className="  rounded-sm bg-primary cursor-pointer px-6 py-2 lg:py-4 lg:px-7 text-xs md:text-sm lg:text-lg  text-white transition duration-180  hover:bg-[#431037]
+        <button type="button" className="  rounded-sm bg-primary cursor-pointer px-6 py-2 lg:py-4 lg:px-7 text-xs md:text-sm lg:text-lg  text-white transition duration-180  hover:bg-[#431037]
         h-12  flex items-center justify-center
         " >Book a Consultation</button>
       </div>

@@ -72,12 +72,14 @@ export default function Testimonials() {
 
         <div className="flex justify-end gap-2 mt-6 lg:mt-10">
           <button
+            type="button"
             aria-label="Previous testimonial"
             className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#F04354]/10 text-secondary cursor-pointer"
           >
             <ChevronLeft className="w-4 h-4 md:w-6 md:h-6" />
           </button>
           <button
+            type="button"
             aria-label="Next testimonial"
             className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#F04354]/10 text-secondary cursor-pointer"
           >

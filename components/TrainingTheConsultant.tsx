@@ -64,6 +64,7 @@ import { ChevronRight } from "lucide-react";
           </div>
   
           <button
+          type="button"
       className={`gap-2 bg-primary text-white text-sm lg:text-lg font-semibold flex justify-center items-center px-5 w-fit h-10 lg:w-43.25 lg:h-12 cursor-pointer py-3 rounded-lg hover:bg-[#4a1531] transition-colors`}
     >
       Learn More

@@ -29,7 +29,7 @@ export default function Home() {
             <p className="text-sm lg:text-lg text-white leading-relaxed tracking-wide max-w-xl lg:max-w-2xl text-center">
               Want to accelerate professional and development at your organisation? See how we can help.
             </p>
-            <button className="bg-white text-primary text-sm lg:text-lg font-semibold flex justify-center font-display items-center px-5 w-fit h-10 lg:h-12 cursor-pointer py-3 rounded-sm lg:px-6 lg:py-4">
+            <button type="button" className="bg-white text-primary text-sm lg:text-lg font-semibold flex justify-center font-display items-center px-5 w-fit h-10 lg:h-12 cursor-pointer py-3 rounded-sm lg:px-6 lg:py-4">
               Book a Consultation
             </button>
 
@@ -51,7 +51,7 @@ export default function Home() {
 
             </div>
             <div className="w-full md:w-auto">
-              <button className="bg-primary text-white text-sm lg:text-lg font-semibold flex justify-center font-display items-center px-5 w-fit md:w-fit h-10 lg:h-12 cursor-pointer py-3 lg:px-6 lg:py-4">
+              <button type="button" className="bg-primary text-white text-sm lg:text-lg font-semibold flex justify-center font-display items-center px-5 w-fit md:w-fit h-10 lg:h-12 cursor-pointer py-3 lg:px-6 lg:py-4">
                 Get in Touch
               </button>
             </div>
